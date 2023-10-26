@@ -47,7 +47,7 @@ devDependencies:
     specifier: ^5.5.3
     version: registry.npmmirror.com/html-webpack-plugin@5.5.3(webpack@5.89.0)
   ts-loader:
-    specifier: ^9.4.2
+    specifier: ^9.5.0
     version: registry.npmmirror.com/ts-loader@9.5.0(typescript@4.9.5)(webpack@5.89.0)
   typescript:
     specifier: ^4.9.5
