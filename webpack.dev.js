@@ -4,7 +4,7 @@ const { Configuration } = require("webpack");
 const htmlWebpackPlugin = require("html-webpack-plugin");
 const { VueLoaderPlugin } = require("vue-loader/dist/index");
 
-const path = require('path')
+const path = require("path");
 
 /**
  * @type { Configuration } // 使用注解的方式，增加代码智能提示
@@ -37,6 +37,9 @@ const config = {
     }),
     new VueLoaderPlugin(),
   ],
+  resolve: {
+    extensions: [".js", ".jsx", ".ts", ".tsx"],
+  },
 };
 
 module.exports = config;
